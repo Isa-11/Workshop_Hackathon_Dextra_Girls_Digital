@@ -1,0 +1,165 @@
+/*var nome = 'Joao';
+console.log(nome);
+
+nome = 'Maria';
+console.log(nome);
+alert(nome);
+
+var idade = 12;
+alert(idade);
+idade = 12.5;
+console.log(idade);
+
+var numero;
+numero = 2;
+console.log(numero+numero);
+
+var numero1 = 3;
+var somaNumero1 = numero1+numero1;
+console.log(somaNumero1);
+
+var numero3 = 3;
+var somaNumero3 = numero3*numero3;
+console.log(somaNumero3);
+
+var anoNasc = 1995;
+var anoAtual = 2017;
+var idade = anoAtual - anoNasc;
+console.log(idade);*/
+
+var numero4 = 4;
+var somaNumero= numero4/numero4;
+console.log(somaNumero);
+
+var texto1 = 'Bom ';
+var texto2 = 'Dia';
+var resultado = texto1+texto2;
+console.log(resultado);
+
+var anoNas = '1995 ';
+var anoAtual = '2017';
+console.log(anoNas+anoAtual);
+
+//Converte valores 
+
+var texto = '1';
+//var anoAtual = '2017';
+var numero = parseInt(texto);
+var resultado = numero + numero;
+console.log(resultado);
+
+//Operadores Condicionais
+ var idade = 18;
+ if (idade >= 18){
+  console.log('Pode Dirigir.');
+  } else {
+   console.log('Não Pode Dirigir.');
+  }
+  
+  var sinal = 'amarelo';
+  
+  if (sinal === 'Vermelho'){
+   console.log('Pare');
+  } else if  (sinal === 'amarelo'){
+   console.log('Atenção! Diminua a Velocidade.');
+  } else if (sinal ==='verde'){
+   console.log('Pode Avançar');
+  } else {
+   console.log('Não existe!');
+  }
+  
+  //Operadores Condicionais
+ var idade = 18;
+ if (idade >= 18){
+  console.log('Pode Dirigir.');
+  } else {
+   console.log('Não Pode Dirigir.');
+  }
+  
+  var sinal = 'amarelo';
+  
+  if (sinal === 'Vermelho'){
+   console.log('Pare');
+  } else if  (sinal === 'amarelo'){
+   console.log('Atenção! Diminua a Velocidade.');
+  } else if (sinal ==='verde'){
+   console.log('Pode Avançar');
+  } else {
+   console.log('Não existe!');
+  
+  
+   var sinal = 'vinho';
+  
+  if (sinal === 'Vermelho')
+  {
+   console.log('Pare');
+  } 
+  else if  (sinal === 'amarelo')
+  {
+   console.log('Atenção! Diminua a Velocidade.');
+  } 
+  else if (sinal ==='verde')
+  {
+   console.log('Pode Avançar');
+   }
+   
+   /*var comida = 'sopa';
+ if(comida==='pizza'){
+   console.log('Eu quero!');
+   } else if (comida === 'sopa'){
+    console.log('Sopa não é janta!');
+   } else {
+      console.log('Não estou com fome!!!');
+   }
+   
+  
+  var numero = 4;
+   if(numero/2 ===1){
+    console.log('Numero Primo.');
+   } else if(numero/1 === 2){
+     console.log('Numero Primo.');
+   }else{
+     console.log('O numero não é primo!');
+   }*/
+   
+   var base = 2;
+   var altura = 2;
+   var area;
+  
+  area = base * altura;
+  console.log('Area do Retangulo é',area);
+  area = base*altura/2;
+  console.log('A area do Triangulo é', area);
+  
+  prompt('Olá, tudo bem?');
+
+ var nome = prompt('Qual é o seu nome?');
+ console.log(nome);
+ 
+ var str = prompt('Escreva um numero:')
+ var numero = parseInt(prompt('Escreva um numero:'));
+  console.log(str+str);
+  console.log(numero+numero);
+ 
+  var numero1 = parseInt(prompt('Digite um numero'));
+ var numero2 = parseInt(prompt('Digite outro numero'));
+  console.log('Soma:',numero1 + numero2);
+  console.log('Subtração: ',numero1 - numero2);
+  console.log('Multiplicação: ',numero1 * numero2);
+  console.log('Divisão: ',numero1 / numero2);
+  
+  
+ var numero1 = parseInt(prompt('Digite um numero'));
+ var numero2 = parseInt(prompt('Digite outro numero'));
+ var soma, subtracao,multiplicacao,divisao;
+ 
+ soma = numero1 + numero2;
+ subtracao = numero1 - numero2;
+ multiplicacao = numero1 * numero2;
+ divisao = numero1 / numero2;
+  alert('soma : ' + soma);
+  alert('Subtração : ' + subtracao);
+  alert('Multiplicação : ' + multiplicacao);
+  alert('Divisão' + divisao);
+  
+  
